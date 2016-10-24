@@ -1,0 +1,8 @@
+## Interface: 70000
+## Title: xanTotalArtifactPower
+## Notes: Displays the total artifact power you have spent.
+## Author: Xruptor
+## Version: 1.0
+## OptionalDeps: tekDebug
+
+xanTotalArtifactPower.lua
