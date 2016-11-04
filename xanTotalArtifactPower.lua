@@ -19,7 +19,7 @@ local function GetArtifactPower()
 		DEFAULT_CHAT_FRAME:AddMessage("|cffff7d0aRanks Purchased:|r "..tostring(ranksPurchased).."  |cff3587ff(does not include relics)|r")
 		DEFAULT_CHAT_FRAME:AddMessage("|cffff7d0aPower Available:|r "..tostring(powerAvailable))
 		DEFAULT_CHAT_FRAME:AddMessage("|cffff7d0aPower Spent On Ranks:|r "..tostring(multiplier[ranksPurchased]))
-		DEFAULT_CHAT_FRAME:AddMessage("|cffff7d0aTotal Power On Relic:|r "..tostring(total))
+		DEFAULT_CHAT_FRAME:AddMessage("|cffff7d0aTotal Power On Artifact:|r "..tostring(total))
 	else
 		DEFAULT_CHAT_FRAME:AddMessage("|cFF99CC33xanTotalArtifactPower:|r No artifact equipped")
 	end
